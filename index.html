@@ -3,53 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bárbara Ximena Rodríguez Droguett | Decarbonization and Sustainable Systems Expert</title>
+    <title>Bárbara X. Rodríguez Droguett | Decarbonization and Sustainable Systems</title>
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
     <style>
-        /* Custom Tailwind Configuration - Using a Deep Crimson (#990000) for an academic, MIT-inspired aesthetic */
+        /* Custom Tailwind Configuration - Set the font stack to prioritize Times New Roman/Serif */
         tailwind.config = {
             theme: {
                 extend: {
                     fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Times New Roman', 'Times', 'serif'],
                     },
-                    colors: {
-                        'primary-red': '#990000', /* Deep Crimson for Headers/Accents */
-                        'secondary-gray': '#f7f7f7', /* Very Light Gray for Section Backgrounds */
-                    }
+                    /* Note: Removed custom color definitions (primary-red, etc.) for a true monochrome design. */
                 }
             }
         }
-        /* Custom styles for hover effects and general cleanup */
+        /* Custom styles for hover effects */
         .hover-link:hover {
-            color: #990000;
+            color: #1f2937; /* Dark Gray on hover */
         }
     </style>
 </head>
-<body class="bg-white text-gray-800 font-sans antialiased">
+<body class="bg-white text-gray-800 font-serif antialiased">
 
-    <!-- Header & Hero Section - Minimalist approach with a strong color band -->
-    <header class="bg-primary-red text-white shadow-lg py-12 md:py-20 rounded-b-lg">
+    <!-- Header & Hero Section - High-contrast black band -->
+    <header class="bg-gray-900 text-white shadow-lg py-12 md:py-20 rounded-b-lg">
         <div class="container mx-auto px-6 max-w-4xl">
-            <div class="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-10">
-                <!-- Profile Image Placeholder -->
-                <div class="flex-shrink-0">
-                    <img src="https://placehold.co/160x160/990000/ffffff?text=BXR" alt="Bárbara Ximena Rodríguez Droguett"
-                         class="w-40 h-40 object-cover rounded-full border-4 border-white shadow-xl">
-                </div>
+            <!-- Content centered -->
+            <div class="flex flex-col items-center justify-center">
                 <!-- Name and Titles -->
-                <div class="text-center md:text-left">
+                <div class="text-center">
                     <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">
                         Bárbara Ximena Rodríguez Droguett
                     </h1>
                     <p class="text-xl md:text-2xl font-light mt-2">
                         Ph.D. in Built Environment | Architect
                     </p>
-                    <p class="text-lg font-medium mt-1 text-red-100">
-                        Académico Carrera Docente, Universidad de Chile
+                    <p class="text-lg font-medium mt-1 text-gray-400">
+                        Academic Career Faculty, Universidad de Chile
                     </p>
                 </div>
             </div>
@@ -59,9 +52,9 @@
     <!-- Main Content Sections -->
     <main class="container mx-auto px-6 py-12 max-w-4xl">
 
-        <!-- Contact & Social Links (Always visible, using the new color scheme) -->
-        <section class="mb-12 p-6 bg-secondary-gray rounded-lg shadow-inner border-t-4 border-primary-red">
-            <h2 class="text-xl font-bold text-primary-red mb-4">Contact</h2>
+        <!-- Contact & Social Links -->
+        <section class="mb-12 p-6 bg-gray-50 rounded-lg shadow-inner border-t-4 border-gray-900">
+            <h2 class="text-xl font-bold text-gray-900 mb-4">Contact</h2>
             <div class="flex flex-wrap gap-6 justify-center md:justify-start">
                 <a href="mailto:barbara.rodriguez@uchile.cl" class="flex items-center space-x-2 text-gray-700 hover-link transition">
                     <i class="fas fa-envelope text-lg"></i>
@@ -80,7 +73,7 @@
 
         <!-- About Section -->
         <section class="mb-12">
-            <h2 class="text-3xl font-bold text-gray-800 border-b-2 border-primary-red pb-3 mb-6">About</h2>
+            <h2 class="text-3xl font-bold text-gray-800 border-b-2 border-gray-900 pb-3 mb-6">About</h2>
             <p class="text-lg leading-relaxed bg-white p-6 rounded-lg shadow-md">
                 I am an Architect and Academic with extensive international experience, specializing in the **Decarbonization of the Built Environment** and **Sustainable Systems**. With over 15 years in research, consulting, and teaching, my work focuses on developing and implementing effective strategies to achieve **Net-Zero Emissions** in new and existing buildings. I am passionate about integrating climate policy (like Chile's Climate Change Framework Law) with architectural education, ensuring that future professionals are equipped to lead the industry's response to the climate crisis. My core research revolves around **Whole Building Life Cycle Assessment (WBLCA)**, particularly quantifying embodied carbon in building systems.
             </p>
@@ -88,42 +81,42 @@
 
         <!-- Education Section -->
         <section class="mb-12">
-            <h2 class="text-3xl font-bold text-gray-800 border-b-2 border-primary-red pb-3 mb-6">Education</h2>
+            <h2 class="text-3xl font-bold text-gray-800 border-b-2 border-gray-900 pb-3 mb-6">Education</h2>
             <div class="space-y-6">
                 <!-- Ph.D. -->
-                <div class="p-5 bg-secondary-gray rounded-lg shadow-sm">
-                    <p class="text-lg font-semibold text-primary-red">Doctor of Philosophy in the Built Environment (Ph.D.)</p>
-                    <p class="text-gray-700">University of Washington, Seattle, WA, EE.UU. | Sep 2015 – Aug 2019</p>
+                <div class="p-5 bg-gray-50 rounded-lg shadow-sm">
+                    <p class="text-lg font-semibold text-gray-900">Doctor of Philosophy in the Built Environment (Ph.D.)</p>
+                    <p class="text-gray-700">University of Washington, Seattle, WA, USA | Sep 2015 – Aug 2019</p>
                     <p class="text-sm italic mt-1">Specialization: Sustainable System and Prototypes</p>
                     <p class="text-sm text-gray-600 mt-1">Thesis: “Embodied Carbon in Commercial Office Buildings: A Simplified LCA Method to Assess the Relative Contribution of HVAC+R Systems”</p>
                 </div>
                 <!-- Master of Science -->
-                <div class="p-5 bg-secondary-gray rounded-lg shadow-sm">
-                    <p class="text-lg font-semibold text-primary-red">Master of Science in Urban Ecology (M.Sc.)</p>
+                <div class="p-5 bg-gray-50 rounded-lg shadow-sm">
+                    <p class="text-lg font-semibold text-gray-900">Master of Science in Urban Ecology (M.Sc.)</p>
                     <p class="text-gray-700">State University of New York, College of Science and Forestry (SUNY ESF) | Aug 2009 – Jun 2011</p>
                 </div>
                  <!-- Master of Public Administration -->
-                 <div class="p-5 bg-secondary-gray rounded-lg shadow-sm">
-                    <p class="text-lg font-semibold text-primary-red">Executive Master of Public Administration (EMPA)</p>
+                 <div class="p-5 bg-gray-50 rounded-lg shadow-sm">
+                    <p class="text-lg font-semibold text-gray-900">Executive Master of Public Administration (EMPA)</p>
                     <p class="text-gray-700">Syracuse University, Maxwell School of Public Affairs | Sep 2010 – Jun 2011</p>
                 </div>
                 <!-- Architect -->
-                <div class="p-5 bg-secondary-gray rounded-lg shadow-sm">
-                    <p class="text-lg font-semibold text-primary-red">Architect (Título de Arquitecto)</p>
-                    <p class="text-gray-700">Universidad de Chile, Facultad de Arquitectura y Urbanismo | 2007</p>
+                <div class="p-5 bg-gray-50 rounded-lg shadow-sm">
+                    <p class="text-lg font-semibold text-gray-900">Architect (Título de Arquitecto)</p>
+                    <p class="text-gray-700">Universidad de Chile, Faculty of Architecture and Urbanism | 2007</p>
                 </div>
             </div>
         </section>
 
         <!-- Professional Experience Section (Expanded) -->
         <section class="mb-12">
-            <h2 class="text-3xl font-bold text-gray-800 border-b-2 border-primary-red pb-3 mb-6">Experience & Leadership</h2>
+            <h2 class="text-3xl font-bold text-gray-800 border-b-2 border-gray-900 pb-3 mb-6">Experience & Leadership</h2>
             <div class="space-y-8">
                 
                 <!-- 1. Universidad de Chile (Current Academic Role) -->
-                <div class="border-l-4 border-primary-red pl-4 py-2 hover:bg-secondary-gray rounded-r-lg transition duration-300">
-                    <p class="text-xl font-semibold">Académico Carrera Docente & Program Coordinator</p>
-                    <p class="text-lg font-medium text-gray-700">Universidad de Chile - Facultad de Arquitectura y Urbanismo (FAU)</p>
+                <div class="border-l-4 border-gray-900 pl-4 py-2 hover:bg-gray-50 rounded-r-lg transition duration-300">
+                    <p class="text-xl font-semibold">Academic Career Faculty & Program Coordinator</p>
+                    <p class="text-lg font-medium text-gray-700">Universidad de Chile - Faculty of Architecture and Urbanism (FAU)</p>
                     <p class="text-sm text-gray-500 mb-2">Aug 2012 – Present (Current)</p>
                     <ul class="list-disc list-inside text-gray-700 space-y-1 ml-4 text-base">
                         <li>**Lead Professor** for pre and post-graduate courses in Decarbonization, Energy Efficiency, and Net-Zero Emission Buildings.</li>
@@ -133,9 +126,9 @@
                 </div>
 
                 <!-- 2. Ministry of Energy (Recent Gov. Role) -->
-                <div class="border-l-4 border-primary-red pl-4 py-2 hover:bg-secondary-gray rounded-r-lg transition duration-300">
+                <div class="border-l-4 border-gray-900 pl-4 py-2 hover:bg-gray-50 rounded-r-lg transition duration-300">
                     <p class="text-xl font-semibold">Professional Analyst - Infrastructure, Building, and Cities Unit</p>
-                    <p class="text-lg font-medium text-gray-700">Ministerio de Energía, Chile</p>
+                    <p class="text-lg font-medium text-gray-700">Ministry of Energy, Chile</p>
                     <p class="text-sm text-gray-500 mb-2">Apr 2020 – Sep 2023</p>
                     <ul class="list-disc list-inside text-gray-700 space-y-1 ml-4 text-base">
                         <li>Led the design and development of studies for **Life Cycle Carbon** measurement in new and existing buildings.</li>
@@ -145,9 +138,9 @@
                 </div>
                 
                 <!-- 3. IDIEM Head of Sustainability -->
-                <div class="border-l-4 border-primary-red pl-4 py-2 hover:bg-secondary-gray rounded-r-lg transition duration-300">
-                    <p class="text-xl font-semibold">Head of Organizational Sustainability (Jefa de Sustentabilidad Organizacional)</p>
-                    <p class="text-lg font-medium text-gray-700">Universidad de Chile - Centro de Investigación y Desarrollo de Estructuras y Materiales (IDIEM)</p>
+                <div class="border-l-4 border-gray-900 pl-4 py-2 hover:bg-gray-50 rounded-r-lg transition duration-300">
+                    <p class="text-xl font-semibold">Head of Organizational Sustainability</p>
+                    <p class="text-lg font-medium text-gray-700">Universidad de Chile - Research and Development Center for Structures and Materials (IDIEM)</p>
                     <p class="text-sm text-gray-500 mb-2">Jul 2011 – Sep 2015</p>
                     <ul class="list-disc list-inside text-gray-700 space-y-1 ml-4 text-base">
                         <li>Directed a new R&D unit focused on civil infrastructure sustainability and climate change adaptation.</li>
@@ -157,7 +150,7 @@
                 </div>
 
                 <!-- 4. Carbon Leadership Forum (Research during PhD) -->
-                <div class="border-l-4 border-primary-red pl-4 py-2 hover:bg-secondary-gray rounded-r-lg transition duration-300">
+                <div class="border-l-4 border-gray-900 pl-4 py-2 hover:bg-gray-50 rounded-r-lg transition duration-300">
                     <p class="text-xl font-semibold">Research Assistant & Co-Investigator</p>
                     <p class="text-lg font-medium text-gray-700">Carbon Leadership Forum, University of Washington, Seattle, WA</p>
                     <p class="text-sm text-gray-500 mb-2">Oct 2015 – Sep 2019</p>
@@ -168,7 +161,7 @@
                 </div>
                 
                 <!-- 5. NGO Project Drawdown (Research Fellow) -->
-                <div class="border-l-4 border-primary-red pl-4 py-2 hover:bg-secondary-gray rounded-r-lg transition duration-300">
+                <div class="border-l-4 border-gray-900 pl-4 py-2 hover:bg-gray-50 rounded-r-lg transition duration-300">
                     <p class="text-xl font-semibold">Research Fellow</p>
                     <p class="text-lg font-medium text-gray-700">NGO Project Drawdown, Sausalito, CA</p>
                     <p class="text-sm text-gray-500 mb-2">Nov 2018 – Jun 2019</p>
@@ -178,7 +171,7 @@
                 </div>
 
                  <!-- 6. SERVIU Metropolitana (Early Career) -->
-                 <div class="border-l-4 border-primary-red pl-4 py-2 hover:bg-secondary-gray rounded-r-lg transition duration-300">
+                 <div class="border-l-4 border-gray-900 pl-4 py-2 hover:bg-gray-50 rounded-r-lg transition duration-300">
                     <p class="text-xl font-semibold">Sustainable Design Architect/Advisor</p>
                     <p class="text-lg font-medium text-gray-700">SERVIU Metropolitana (EGIS), Santiago, Chile</p>
                     <p class="text-sm text-gray-500 mb-2">Nov 2007 – Aug 2009</p>
@@ -191,9 +184,9 @@
             </div>
         </section>
         
-        <!-- Selected Publications & Research Section (Remains the same) -->
+        <!-- Selected Publications & Research Section -->
         <section class="mb-12">
-            <h2 class="text-3xl font-bold text-gray-800 border-b-2 border-primary-red pb-3 mb-6">Selected Publications & Research</h2>
+            <h2 class="text-3xl font-bold text-gray-800 border-b-2 border-gray-900 pb-3 mb-6">Selected Publications & Research</h2>
             <p class="text-lg font-semibold text-gray-700 mb-4">Key Journal Articles & Reports (WoS / Refereed)</p>
 
             <div class="space-y-4 text-gray-700">
@@ -206,7 +199,7 @@
                  <div class="p-4 border border-gray-200 rounded-lg bg-white shadow-sm">
                     <p class="font-medium">Simonen K., Rodríguez B.X., De Wolf C. (2017). **Benchmarking the embodied carbon of buildings**.</p>
                     <p class="text-sm italic">Technology|Architecture + Design 1 (2), 208-218.</p>
-                    <p class="text-xs text-primary-red mt-1">Recipient of the **2020 ACSA TAD Best Article Award**.</p>
+                    <p class="text-xs text-gray-600 mt-1">Recipient of the **2020 ACSA TAD Best Article Award**.</p>
                 </div>
                 <!-- Publication 3 -->
                 <div class="p-4 border border-gray-200 rounded-lg bg-white shadow-sm">
@@ -216,7 +209,7 @@
                 <!-- Research Project -->
                 <p class="text-lg font-semibold text-gray-700 pt-6 mb-4">Key Research Leadership</p>
                 <div class="p-4 border border-gray-200 rounded-lg bg-white shadow-sm">
-                    <p class="font-medium text-primary-red">Director, ECOBASE: Life Cycle Inventory Database for the Chilean Construction Sector (2013-2015)</p>
+                    <p class="font-medium text-gray-900">Director, ECOBASE: Life Cycle Inventory Database for the Chilean Construction Sector (2013-2015)</p>
                     <p class="text-sm italic">Funded by INNOVA CORFO. Developed the first environmental performance platform for major Chilean construction materials (concrete, steel, wood).</p>
                 </div>
             </div>
@@ -224,19 +217,19 @@
 
         <!-- Awards & Distinctions Section -->
         <section class="mb-12">
-            <h2 class="text-3xl font-bold text-gray-800 border-b-2 border-primary-red pb-3 mb-6">Awards & Recognition</h2>
+            <h2 class="text-3xl font-bold text-gray-800 border-b-2 border-gray-900 pb-3 mb-6">Awards & Recognition</h2>
             <div class="space-y-3 text-gray-700">
                 <div class="flex items-start space-x-3">
-                    <i class="fas fa-award text-primary-red mt-1 flex-shrink-0"></i>
+                    <i class="fas fa-award text-gray-900 mt-1 flex-shrink-0"></i>
                     <p class="text-base font-medium">**2020 ACSA TAD Best Article Award** for "Benchmarking the Embodied Carbon of Buildings."</p>
                 </div>
                 <div class="flex items-start space-x-3">
-                    <i class="fas fa-award text-primary-red mt-1 flex-shrink-0"></i>
-                    <p class="text-base font-medium">**Primer Lugar, 3M Thesis (3MT®) Competition**, University of Washington (2019).</p>
+                    <i class="fas fa-award text-gray-900 mt-1 flex-shrink-0"></i>
+                    <p class="text-base font-medium">**First Place, 3M Thesis (3MT®) Competition**, University of Washington (2019).</p>
                 </div>
                 <div class="flex items-start space-x-3">
-                    <i class="fas fa-award text-primary-red mt-1 flex-shrink-0"></i>
-                    <p class="text-base font-medium">**Premio Construcción Sustentable Profesional Sub 35**, Corporación de Desarrollo Tecnológico (CDT) de la CChC (2015).</p>
+                    <i class="fas fa-award text-gray-900 mt-1 flex-shrink-0"></i>
+                    <p class="text-base font-medium">**Sustainable Construction Professional Under 35 Award**, CDT, Chilean Chamber of Construction (2015).</p>
                 </div>
             </div>
         </section>
@@ -244,12 +237,14 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-primary-red text-white py-8 mt-12 rounded-t-lg">
+    <footer class="bg-gray-900 text-white py-8 mt-12 rounded-t-lg">
         <div class="container mx-auto px-6 max-w-4xl text-center">
             <p class="text-sm mb-2">© 2025 Bárbara Ximena Rodríguez Droguett. All rights reserved.</p>
             <p class="text-xs">Built using data from Academic CV (May 2025).</p>
         </div>
     </footer>
 
+</body>
+</html>
 </body>
 </html>
